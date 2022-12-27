@@ -1,0 +1,54 @@
+body{
+    background-color:mintcream;
+}
+.calcinputs {
+    max-width: 400px;
+    margin: 10vh auto 0 auto;
+    box-shadow: 0px 0px 33px 16px rgb(192, 226, 255);
+}
+
+#calci {
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 25px;
+}
+#heading{
+    color:blue ;
+}
+
+.buttons {
+    display: grid;
+    border-bottom: 0.8px solid whitesmoke;
+    border-left: 0.8px solid whitesmoke;
+    color:palevioletred;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.buttons > div {
+    border-top: 0.5px solid mediumorchid;
+    border-right: 0.5px solid red ;
+}
+
+.button {
+    border: 0.5px solid #999;
+    line-height: 50px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#equalto {
+    background-color:blanchedalmond;
+    color:mediumvioletred;
+}
+#number {
+    background-color:cyan;
+}
+
+.button:hover {
+    background-color: #323330;
+    color: pink;
+    transition: 0.5s ease-in-out;
+}
